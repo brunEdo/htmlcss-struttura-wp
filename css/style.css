@@ -11,7 +11,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-.clearfix {
+
+/* not used */
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
@@ -39,6 +41,7 @@ section:last-child {
 /* div floating light-blue  */
 section:last-child div {
     background-color: #ABCFE7;
+    /* font-size: 0px; */
 }
 
 /* purple footer  */
@@ -46,4 +49,31 @@ footer {
     background-color: #8801FE;
     height: 60px;
     margin: 10px 0 30px;
+}
+
+/* first light-blue div  */
+.top {
+    height: 90px;
+}
+
+/* three columns */
+.left, .center, .right {
+    margin: 24px 0px;
+    height: 540px;
+    display: inline-block;
+}
+
+.right, .left {
+    width: 23%;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left
+}
+
+.center {
+    width: 50%;
+    margin: 24px 2%;
 }
