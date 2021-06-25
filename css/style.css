@@ -15,3 +15,17 @@
     display: table;
     clear: both;
 }
+
+/* pink header  */
+header {
+    background-color: #E579E6;
+    height: 140px;
+    margin-top: 25px;
+}
+
+/* main: first yellow section */
+section:first-child {
+    background-color: #E1D67A;
+    height: 500px;
+    margin: 30px 0;
+}
