@@ -1,0 +1,17 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* common */
+.container {
+    width: 80%;
+    margin: auto;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
